@@ -9,6 +9,10 @@ a {
   padding: 3.45%;
   background: #070707;
   color: #DFEDFF;
+  text-align: center;
+  padding-top: 9%;
+  padding-bottom: 9%;
+  text-decoration: none;
 }
 nav {
   display: inline;
