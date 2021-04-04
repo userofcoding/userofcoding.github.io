@@ -11,11 +11,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;420;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/ico" href="../favicon.ico">
     <style>
+      .light-theme {
+        --background: #FEFEFE;
+        --background2: #42EEDC;
+        --text: #121212;
+        --text-inverted: #FCFCFC;
+        --background-inverted: #101010;
+      }
       body {
-        background: #FCFCFC;
+        background: var(--background);
         font-size: 11pt;
         font-family: "Roboto", Helvetica, Arial, Calibri, times;
-        color: #101010;
+        color: var(--text);
       }
       h1 {
         font-family: "Lobster";
@@ -25,7 +32,7 @@
         padding: 45px;
         padding-top: 69px;
         padding-bottom: 69px;
-        background: #42EEDC;
+        background: var(--background2);
         background-repeat: no-repeat;
         background-size: cover;
         background-image: url("/cah-klementis/BannerImageWebsite.png");
@@ -38,11 +45,20 @@
         font-family: "Lato", sans-serif;
         font-size: 14pt;
       }
+      nav {
+        background: var(--background-inverted);
+        color: var(--color-inverted);
+        width: 100%;
+        padding: 8px;
+      }
+      nav .tab-button {
+        float: right;
+      }
     </style>
   </head>
-  <body>
+  <body class="light-theme">
     <header><nav>
-      <a></a>
+      <a href="#tab1" class="tab-button">Home</a>
     </nav></header>
     <div id="tab1" class="tabs">
       <h1>Menapaki hikmah dalam kisah</h1>
