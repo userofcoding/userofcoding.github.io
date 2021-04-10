@@ -2,6 +2,32 @@
 <html>
   <head>
     <title>Happy Birthday!</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background: #00119B;
+        color: #75EEFF;
+        font-family: "Roboto", Helvetica, Arial;
+        --gradient-color-start: #4455EE;
+        --gradient-color-finish: #FE5DFF;
+      }
+      .test h1 {
+        font-size: 54pt;
+        background: -webkit-linear-gradient(var(--gradient-color-start), var(--gradient-color-finish));
+        background: linear-gradient(var(--gradient-color-start), var(--gradient-color-finish));
+        background-clip: text;
+        text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .test h2 {
+        display: hidden;
+      }
+      .test h2:hover {
+        display: flex;
+      }
+    </style>
   </head>
   <body>
     <div id="test">
