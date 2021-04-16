@@ -62,17 +62,21 @@
         padding: 0;
       }
       nav {
-        display: block;
+        display: flex;
         background: var(--background-inverted);
         color: var(--text-inverted);
+        position: sticky;
+        top: 0;
+        left: 0;
         width: 100vh;
-        height: 4vh;
+        height: 8vh;
       }
       nav .tab-button {
         float: right;
         color: var(--text-inverted);
         font-size: 19pt;
         font-weight: 800;
+        margin: 4vh;
       }
       nav .tab-button:visited {
         color: var(--text-inverted);
