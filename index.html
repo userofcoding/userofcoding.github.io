@@ -1,34 +1,97 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Userofcoding's Website!</title>
-		<link rel="stylesheet" href="style.css">
+		<title>Lunched</title>
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+		<style>
+	    	html {
+		        width: 100%;
+		        height: 100%;
+		        background: #505565;
+		        font-family: Helvetica, Arial, sans-serif;
+		        margin: 0;
+		        padding: 0;
+	        }
+	        body {
+		        margin: 0;
+		        padding: 0;
+	        }
+	        .main {
+	        	font-family: "Space Grotesk"
+	        }
+	    	.main.title {
+		        font-size: 4em;
+				color: #FDF945;
+		        line-height: 1.1;
+		        word-spacing: 0.1em;
+		        margin-bottom: -0.2em;
+	        }
+	        .main.subtitle {
+		        font-size: 1.5em;
+				color: #FDC945;
+		        line-height: 1.1;
+		        word-spacing: 0.1em;
+	        }
+	        .main.wrapper {
+		        background: #121212;
+		        padding: 3em;
+		        padding-bottom: 70vh;
+	        }
+			.image-gallery {
+				background: #111;
+				opacity: 0.9;
+				color: #fff;
+				display: flex;
+				flex: 1;
+				padding: 4rem;
+			}
+			.image-gallery img {
+				width: 1fr;
+				border-radius: 2vh;
+				-webkit-box-shadow: 0px 15px 22px 5px rgba(255,255,240,0.7), inset 0px 4px 10px 5px rgba(0,0,0,0.4); 
+				box-shadow: 0px 15px 22px 5px rgba(255,255,240,0.7), inset 0px 4px 10px 5px rgba(0,0,0,0.4);
+			}
+			.image-gallery .image-section {
+				display: flex;
+			}
+			.image-gallery .image-section .description {
+				display: block;
+				margin: 3rem;
+				padding: 0.5rem;
+			}
+			.image-gallery .image-section .description h4 {
+				font-size: 21pt;
+			}
+			.image-gallery .image-section .description p {
+				font-size: 15pt;
+			}
+			footer {
+				margin-top: 15vh;
+				padding: 1vh;
+				background: #111;
+				color: #fff;
+			}
+		</style>
 	</head>
 	<body>
-		<!--
-		<header>
-			<nav>
-				<a href="#">Home</a>
-				<a href="about.html">About</a>
-			</nav>
-		</header>
-		-->
-		<br>
-		<br>
-		<br>
-		<br>
-		<h1>If you're unsure what this is, go to:</h1>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<a href="/cah-klementis">Cah Klementis Blog</a>
-		<!--  
-		<iframe frameborder="0" src="https://itch.io/embed/900585?border_width=5&amp;border_color=babbaa" width="560" height="175"><a href="https://altprogrammer.itch.io/flag-is-yes">Flag Is Yes by A coder</a></iframe>  
-		-->
+
+		<article class="main wrapper">
+			<h1 class="main title">Are you hungry for lunch?</h1>
+			<h3 class="main subtitle">We'll offer you a range of delicious meals that'll hopefully make you smile!</h3>
+		</article>
+		<article class="image-gallery">
+			<div class="image-section">
+				<img src=https://i0.wp.com/www.eatthis.com/wp-content/uploads/2020/06/mcdonalds-interior.jpg?resize=640%2C360&ssl=1">
+				<div class="description">
+					<h4>Clean floors you don't have to worry about.</h4>
+					<p>We'll clean our restaurants to help stop germs spreading and infecting our fellow customers. We don't stop to try our best and go above and beyond by perfecting the quality of our foods, just for you!</p>
+				</div>
+			</div>
+		</article>
+		
+		<footer>*most if not all of the images used in this website draft was from third party sources. </footer>
+
 	</body>
 </html>
